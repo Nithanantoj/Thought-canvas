@@ -1,26 +1,5 @@
 # Thought Canvas
 
-<<<<<<< HEAD
-A MERN stack note-taking application with user authentication and note sharing capabilities.
-
-## Features
-
-- User Authentication (Sign up, Sign in, Password reset)
-- Note Management (Create, Read, Update, Delete)
-- Note Sharing via Email and WhatsApp
-- Secure Password Handling with bcrypt
-- JWT-based Authentication
-- Responsive React Frontend
-
-## Tech Stack
-
-- MongoDB: Database
-- Express.js: Backend framework
-- React: Frontend library
-- Node.js: Runtime environment
-- JWT: Authentication
-- bcrypt: Password hashing
-=======
 Thought Canvas is a MERN stack notes-making application that allows users to create, manage, and share notes securely. The application features user authentication, note management, and sharing functionalities via email.
 
 ## Features
@@ -52,7 +31,6 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
   - JWT for authentication
   - Bcrypt for password hashing
   - Nodemailer for sending emails
->>>>>>> 430470a1b3967fc0f1875ad9d8de9417d9e9ab47
 
 ## Getting Started
 
@@ -60,12 +38,14 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
 
 - Node.js (v14 or higher)
 - MongoDB
-<<<<<<< HEAD
-- npm or yarn
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nithanantoj/Thought-canvas.git
+   cd thought-canvas
+   ```
 2. Install backend dependencies:
    ```bash
    cd backend
@@ -110,12 +90,3 @@ WHATSAPP_API_KEY=your_whatsapp_api_key
 ```
 REACT_APP_API_URL=http://localhost:5000
 ```
-=======
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Nithanantoj/Thought-canvas.git
-   cd thought-canvas
->>>>>>> 430470a1b3967fc0f1875ad9d8de9417d9e9ab47
