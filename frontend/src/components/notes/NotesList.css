@@ -1,0 +1,42 @@
+.notes-container {
+    padding: 24px;
+}
+
+.note-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+}
+
+.note-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-card .MuiCardContent-root {
+    flex-grow: 1;
+}
+
+.note-actions {
+    justify-content: flex-end;
+    padding: 8px 16px;
+}
+
+.share-dialog-content {
+    min-width: 300px;
+    padding: 16px 0;
+}
+
+.share-option {
+    margin-bottom: 24px;
+}
+
+.share-option:last-child {
+    margin-bottom: 0;
+}
+
+.share-option .MuiButton-root {
+    margin-top: 8px;
+    width: 100%;
+}

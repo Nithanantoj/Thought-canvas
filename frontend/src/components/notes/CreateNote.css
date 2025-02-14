@@ -1,0 +1,22 @@
+.create-note-container {
+    padding: 24px;
+}
+
+.create-note-paper {
+    padding: 24px;
+}
+
+.create-note-form {
+    margin-top: 16px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.action-button {
+    min-width: 120px;
+}

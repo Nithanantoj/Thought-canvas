@@ -1,0 +1,23 @@
+.navbar {
+    margin-bottom: 24px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-button {
+    text-transform: none;
+}
+
+.logout-button {
+    margin-left: 8px;
+}

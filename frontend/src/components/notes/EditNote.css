@@ -1,0 +1,42 @@
+.edit-note-container {
+    padding: 24px;
+}
+
+.edit-note-paper {
+    padding: 24px;
+}
+
+.edit-note-form {
+    margin-top: 16px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.action-button {
+    min-width: 120px;
+}
+
+.edit-note-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.edit-note-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 48px 24px;
+    text-align: center;
+}
+
+.back-button {
+    min-width: 160px;
+}
