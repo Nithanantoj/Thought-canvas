@@ -1,8 +1,8 @@
-# Thought Canvas
+# 📝 Thought Canvas
 
 Thought Canvas is a MERN stack notes-making application that allows users to create, manage, and share notes securely. The application features user authentication, note management, and sharing functionalities via email.
 
-## Features
+## 🚀 Features
 
 - **User Authentication**: 
   - Sign up with basic information (name, email, password).
@@ -16,7 +16,7 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
 - **Responsive Design**: 
   - Built with Material-UI for a modern and responsive user interface.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: 
   - React.js
@@ -32,7 +32,7 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
   - Bcrypt for password hashing
   - Nodemailer for sending emails
 
-## Getting Started
+## 📝 Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
    npm start
    ```
 
-## Environment Variables
+## 🔐 Environment Variables
 
 Create `.env` files in both backend and frontend directories with the following variables:
 
