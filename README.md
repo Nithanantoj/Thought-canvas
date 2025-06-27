@@ -23,9 +23,9 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
 
 ## 🖼️ Preview
 
-| Code View | Create Note | Welcome Page | Dashboard |
+| Code View | Welcome Page | Dashboard | Create Note |
 |-----------|-------------|---------------|-----------|
-| ![Code](./images/code.png) | ![CreateNote](./images/createNote.png) | ![Welcome](./images/Welcome.png) | ![Dashboard](./images/DashBoard.png) |
+| ![Code](./images/code.png) | ![Welcome](./images/Welcome.png) | ![Dashboard](./images/DashBoard.png) | ![CreateNote](./images/createNote.png) |
 
 ---
 
