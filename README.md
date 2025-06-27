@@ -2,33 +2,6 @@
 
 Thought Canvas is a MERN stack notes-making application that allows users to create, manage, and share notes securely. The application features user authentication, note management, and sharing functionalities via email.
 
-## Features
-
-- User Authentication (Sign up, Sign in, Password reset)
-- Note Management (Create, Read, Update, Delete)
-- Note Sharing via Email and WhatsApp
-- Secure Password Handling with bcrypt
-- JWT-based Authentication
-- Responsive React Frontend
-
-## Tech Stack
-
-- MongoDB: Database
-- Express.js: Backend framework
-- React: Frontend library
-- Node.js: Runtime environment
-- JWT: Authentication
-- bcrypt: Password hashing
-
-
-## 🖼️ Preview
-
-| Code View | Welcome Page | Dashboard | Create Note |
-|-----------|-------------|---------------|-----------|
-| ![Code](./images/code.png) | ![Welcome](./images/Welcome.png) | ![Dashboard](./images/DashBoard.png) | ![CreateNote](./images/createNote.png) |
-
----
-
 ## 🚀 Features
 
 - **User Authentication**: 
@@ -45,19 +18,21 @@ Thought Canvas is a MERN stack notes-making application that allows users to cre
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: 
-  - React.js
-  - Material-UI
-  - React Router
-  - Axios for API calls
-  - Formik and Yup for form handling and validation
+- MongoDB: Database
+- Express.js: Backend framework
+- React: Frontend library
+- Node.js: Runtime environment
+- JWT: Authentication
+- bcrypt: Password hashing
 
-- **Backend**: 
-  - Node.js with Express.js
-  - MongoDB for database storage
-  - JWT for authentication
-  - Bcrypt for password hashing
-  - Nodemailer for sending emails
+
+## 🖼️ Preview
+
+| Code View | Welcome Page | Dashboard | Create Note |
+|-----------|-------------|---------------|-----------|
+| ![Code](./images/code.png) | ![Welcome](./images/Welcome.png) | ![Dashboard](./images/DashBoard.png) | ![CreateNote](./images/createNote.png) |
+
+---
 
 ## 📝 Getting Started
 
