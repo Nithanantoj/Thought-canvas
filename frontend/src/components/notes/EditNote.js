@@ -10,6 +10,7 @@ import {
     CircularProgress,
 } from '@mui/material';
 import './EditNote.css';
+import { toast } from 'react-toastify';
 
 const EditNote = () => {
     const [title, setTitle] = useState('');
@@ -40,7 +41,9 @@ const EditNote = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            console.log('Editing note with ID:', id);
             await axios.put(`/notes/${id}`, { title, content });
+            toast.success('Note updated successfully!');
             navigate('/');
         } catch (err) {
             setError(err.response?.data?.message || 'Failed to update note');

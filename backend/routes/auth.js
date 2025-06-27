@@ -90,7 +90,8 @@ router.post('/forgot-password', async (req, res) => {
             }
         });
 
-        const resetLink = `http://localhost:5174/reset-password`; // Change this to your actual reset password route
+        // Include the token in the reset link
+        const resetLink = `http://localhost:5174/reset-password/${token}`; // Change this to your actual reset password route
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
@@ -119,4 +120,31 @@ router.post('/forgot-password', async (req, res) => {
         res.status(500).json({ msg: "Server Error" });
     }
 });
+
+// Reset Password Route
+router.post('/reset-password/:token', async (req, res) => {
+    const { password } = req.body;
+    const { token } = req.params;
+
+    try {
+        const user = await User.findOne({
+            resetPasswordToken: token,
+            resetPasswordExpires: { $gt: Date.now() } // Check if token is still valid
+        });
+
+        if (!user) {
+            return res.status(400).json({ message: 'Invalid or expired reset token' });
+        }
+
+        user.password = password; // Update the password
+        user.resetPasswordToken = undefined; // Clear the reset token
+        user.resetPasswordExpires = undefined; // Clear the expiration time
+        await user.save();
+
+        res.json({ message: 'Password reset successful' });
+    } catch (error) {
+        res.status(500).json({ message: 'Server error' });
+    }
+});
+
 module.exports = router;

@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
-import { forgotPassword } from '../../api'; // Adjust the import based on your API setup
+import { useAuth } from '../../contexts/AuthContext';
 import { Container, TextField, Button, Typography } from '@mui/material';
+
 
 const ForgotPassword = () => {
     const [email, setEmail] = useState('');
+
+    const { forgotPassword } = useAuth();
 
     const handleSubmit = async (e) => {
         e.preventDefault();

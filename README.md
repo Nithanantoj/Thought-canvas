@@ -1,6 +1,33 @@
-# 📝 Thought Canvas
+# Thought Canvas
 
 Thought Canvas is a MERN stack notes-making application that allows users to create, manage, and share notes securely. The application features user authentication, note management, and sharing functionalities via email.
+
+## Features
+
+- User Authentication (Sign up, Sign in, Password reset)
+- Note Management (Create, Read, Update, Delete)
+- Note Sharing via Email and WhatsApp
+- Secure Password Handling with bcrypt
+- JWT-based Authentication
+- Responsive React Frontend
+
+## Tech Stack
+
+- MongoDB: Database
+- Express.js: Backend framework
+- React: Frontend library
+- Node.js: Runtime environment
+- JWT: Authentication
+- bcrypt: Password hashing
+
+
+## 🖼️ Preview
+
+| Code View | Create Note | Welcome Page | Dashboard |
+|-----------|-------------|---------------|-----------|
+| ![Code](./images/code.png) | ![CreateNote](./images/createNote.png) | ![Welcome](./images/Welcome.png) | ![Dashboard](./images/DashBoard.png) |
+
+---
 
 ## 🚀 Features
 
